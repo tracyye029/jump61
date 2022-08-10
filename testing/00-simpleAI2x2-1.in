@@ -1,0 +1,11 @@
+#* java -ea jump61.Main
+# Check that auto player can find right move when forced. Blue should win.
+size 2
+seed 130223
+manual Blue
+1 1
+dump
+auto red
+auto blue
+#*move/win+
+quit
